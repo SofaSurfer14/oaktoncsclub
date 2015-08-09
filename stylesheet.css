@@ -36,16 +36,19 @@ nav ul li a:hover{
 	background-color: #ff7740;
 		color: #2D112B;
 }
-.about{width:15%}
-.officers{width:30%}
-.projects{width:35%}
-.contact{width:20%}
+.about{width:25%}
+.officers{width:25%}
+.projects{width:25%}
+.contact{width:25%}
 
 .announcements-stream{
 	height:304px;
-	width:340px;
+	width:640px;
 	text-align:left;
-	color:#51585e
+	color:#51585e;
+	position: absolute;
+	top: 20%;
+	margin: 60px;
 }
 .announcement-card{
 	border-radius: 3px;
@@ -62,4 +65,18 @@ nav ul li a:hover{
 	margin-bottom:8px;
 	min-height:20px;
 	line-height:20px
+}
+.announcement-title{
+	margin-left: 40px;	
+}
+.announcement-avatar{
+	background-image: url(http://i.imgur.com/5h5NrJc.jpg);
+	background-size: cover;
+  	background-repeat: no-repeat;
+	border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
 }
